@@ -6,21 +6,12 @@ import { create, all } from 'mathjs'
 const config = {
   epsilon: 1e-12,
   matrix: 'Matrix',
-  number: 'number',
+  number: 'BigNumber',
   precision: 64,
   predictable: false,
   randomSeed: null
 }
-const math = create(all, config)
-
-// read the applied configuration
-console.log(math.config())
-
-// change the configuration
-math.config({
-  number: 'BigNumber'
-})
-
+const math = create(all, config);
 
 //functional component for the calculator body
 
