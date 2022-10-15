@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.calculator{
+  width: 400px;
+}
+
+.calculatorBody{
+  display: flex;
+  flex-direction: column;
+}
+
+.calculatorBodyRow{
+  display: flex;
+}
+
+.calculatorBtn{
+  width: 25%;
+  text-align: center;
+  font-size: x-large;
+}
+.calculatorHeader{
+  text-align: end;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 0px;
+}
+
+
