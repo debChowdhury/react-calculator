@@ -6,17 +6,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* whole calculator design */
 .calculator{
   width: 400px;
   margin: 20px;
 }
+/* whole body design */
 .calculatorBody{
   display: flex;
   flex-direction: column;
 }
+/* row design */
 .calculatorBodyRow{
   display: flex;
 }
+/* btn design */
 .calculatorBtn{
   width: 25%;
   text-align: center;
@@ -24,6 +28,7 @@ body {
   background-color: #ffeb3b4a;
   padding: 18px;
 }
+/* calculator header design */
 .calculatorHeader{
   text-align: end;
   padding: 10px;
@@ -32,12 +37,15 @@ body {
   overflow: overlay;
   border-radius: 10px 10px 0 0;
 }
+/* all sign btns design */
 .signBtns{
   background-color: orange;
 }
+/* changing background color when btn remains clicked */
 .calculatorBtn:active{
   background-color: white;
 }
+/* the whole container design containing the calculator */
 .container{
   width: 100%;
   height: 100%;

@@ -1,11 +1,13 @@
 import { useContext } from "react";
 import UserContext from "./UserContext";
-function CalculatorComponent() {
-    
+
+//functional component of calculator header
+function CalculatorHeaderComponent() {
+    //getting the context
     const user = useContext(UserContext);
-    console.log(user);
     return (
+        // showing the calculator value
         <h1 className="calculatorHeader">{user.value}</h1>
     );
 }
-export default CalculatorComponent;
+export default CalculatorHeaderComponent;
