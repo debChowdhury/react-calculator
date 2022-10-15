@@ -18,10 +18,13 @@ function CalculatorComponent() {
     });
     return (
         <UserContext.Provider value={resultObj}>
-            <div className="calculator">
-                <CalculatorHeaderComponent />
-                <CalculatorBodyComponent />
+            <div className="container">
+                <div className="calculator">
+                    <CalculatorHeaderComponent />
+                    <CalculatorBodyComponent />
+                </div>
             </div>
+            
         </UserContext.Provider>
         
     );
